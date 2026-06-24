@@ -1,0 +1,33 @@
+{
+	"apiVersion": 3,
+	"name": "fitlife/program-highlight",
+	"title": "Program Highlight",
+	"category": "widgets",
+	"icon": "star-filled",
+	"description": "FitLife Program Highlight Block",
+
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		},
+		"imageUrl": {
+			"type": "string"
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Join Now"
+		},
+		"buttonUrl": {
+			"type": "string"
+		},
+		"difficulty": {
+			"type": "string",
+			"default": "Beginner"
+		}
+	},
+
+	"editorScript": "file:../../build/index.js"
+}

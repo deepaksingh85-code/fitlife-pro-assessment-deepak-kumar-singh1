@@ -1,0 +1,17 @@
+{
+	"apiVersion": 3,
+	"name": "fitlife/trainer-spotlight",
+	"title": "Trainer Spotlight",
+	"category": "widgets",
+	"icon": "groups",
+	"description": "Display a featured trainer",
+
+	"attributes": {
+		"trainerId": {
+			"type": "number",
+			"default": 0
+		}
+	},
+
+	"editorScript": "file:../../build/index.js"
+}
